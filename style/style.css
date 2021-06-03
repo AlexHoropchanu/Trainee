@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: PT Sans;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header__top-wrapper {
+  background-color: #000000;
+}
+
+.header__top {
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__top__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__top__left div {
+  border-right: 1px solid #969696;
+  margin-right: 10px;
+  padding-right: 10px;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__top__left img {
+  margin-right: 15px;
+}
+
+.header__top__left a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+
+.header__top__left p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #969696;
+}
+
+.header__top__left p:last-child {
+  border: none;
+}
+
+.header__top__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__top__right img {
+  margin-right: 10px;
+}
+
+.header__top__right p {
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+  text-align: right;
+}
+
+.header__bottom__wrapper {
+  background-color: #0f0f0f;
+  height: 80px;
+}
+
+.header__bottom {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__bottom__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  color: #969696;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__bottom__list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  padding: 0 20px;
+}
+
+.header__bottom__list li:last-child {
+  margin-right: 0;
+  text-align: right;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__bottom__list li:last-child:hover {
+  background: none;
+}
+
+.header__bottom__list li:nth-child(4) {
+  margin-left: 60px;
+  margin-right: 40px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__bottom__list li:nth-child(4):hover {
+  background: none;
+}
+
+.header__bottom__list li:hover {
+  background-color: black;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+.secton__top {
+  background-image: url("../img/background__top.jpg");
+  height: 810px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secton__top img {
+  width: 320px;
+  height: 320px;
+  margin-bottom: 80px;
+}
+
+.secton__top p {
+  width: 730px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.new__collection {
+  height: 730px;
+}
+
+.new__collection__left {
+  height: inherit;
+  background-color: #000000;
+}
+
+.new__collection__left__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
