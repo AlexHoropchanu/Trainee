@@ -1039,7 +1039,7 @@ body {
     padding-bottom: 0;
   }
   .new__arrivals {
-    height: 50vh;
+    height: auto;
   }
   .new__arrivals h3 {
     font-size: 27px;
