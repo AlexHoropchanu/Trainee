@@ -49,7 +49,7 @@ const swiper = new Swiper(".swiper-container", {
       allowSlidePrev: true,
     },
     300: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       allowSlideNext: true,
       allowSlidePrev: true,
       centeredSlides: true,
