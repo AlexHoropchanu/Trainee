@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: PT Sans;
+  font-family: "PT Sans";
 }
 
 .container {
@@ -57,7 +57,7 @@ body {
 }
 
 .header__top__left a {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   text-decoration: none;
   font-size: 12px;
   line-height: 16px;
@@ -65,7 +65,7 @@ body {
 }
 
 .header__top__left p {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-size: 12px;
   line-height: 16px;
   color: #969696;
@@ -89,7 +89,7 @@ body {
 }
 
 .header__top__right p {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -136,7 +136,7 @@ body {
   align-items: center;
   height: 80px;
   text-transform: uppercase;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -218,7 +218,7 @@ body {
 
 .secton__top p {
   width: 730px;
-  font-family: PT Sans, sans-serif;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -263,7 +263,7 @@ body {
 }
 
 .new__collection__left__corusel__wrapper h6 span {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
@@ -278,7 +278,7 @@ body {
 }
 
 .new__collection__left__title {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   margin-top: 93px;
   margin-bottom: 41px;
   font-style: normal;
@@ -302,7 +302,7 @@ body {
 }
 
 .new__collection__right__title {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,7 +352,7 @@ body {
 }
 
 .collection__2018__right h3 {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -365,7 +365,7 @@ body {
 }
 
 .collection__2018__right p {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -385,7 +385,7 @@ body {
   margin: 0 auto;
   border: 1px solid #ffffff;
   padding: 12px 28px;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -409,7 +409,7 @@ body {
 }
 
 .new__arrivals h3 {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -422,6 +422,7 @@ body {
 }
 
 .new__arrivals h6 {
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -431,7 +432,7 @@ body {
 }
 
 .new__arrivals h6 span {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   margin-top: 10px;
   display: inline-block;
   font-style: normal;
@@ -478,7 +479,7 @@ body {
 }
 
 .our__brands h3 {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -530,7 +531,7 @@ body {
 }
 
 .footer__top h3 {
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -541,7 +542,7 @@ body {
 }
 
 .footer__top p {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -570,7 +571,7 @@ body {
   margin-right: 9px;
   padding: 10px 20px;
   background: #0f0f0f;
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -609,7 +610,7 @@ body {
 }
 
 .footer__top__right button {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   max-width: 140px;
   padding: 11px 20px;
   border: none;
@@ -645,6 +646,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: "PT Sans";
   font-size: 12px;
   line-height: 16px;
   color: #d0d0d0;
@@ -1008,16 +1010,16 @@ body {
     margin-bottom: 20px;
   }
   .collection__2018__right p {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 100%;
     padding: 0 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: PT Sans, sans-serif;
+    font-family: "PT Sans";
   }
   .collection__2018__right button {
-    font-family: PT Sans, sans-serif;
-    font-size: 13px;
+    font-family: "PT Sans";
+    font-size: 18px;
   }
   .footer__top {
     -ms-flex-wrap: wrap;
@@ -1060,6 +1062,7 @@ body {
     margin-bottom: 20px;
   }
   .new__collection__right__title {
+    font-size: 27px;
     margin-top: 40%;
   }
   .new__collection__right {
@@ -1128,6 +1131,20 @@ body {
   .burger-menu__img {
     right: 15%;
   }
+  .our__brands h3 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer__top__center ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__top__center {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 425px) {
@@ -1140,23 +1157,24 @@ body {
     height: auto;
   }
   .secton__top img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   .secton__top p {
-    font-size: 12px;
+    font-size: 14px;
     padding: 20px 20px;
   }
   .collection__2018__right p {
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .footer__top__left {
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .footer__top p {
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0 20px;
   }
   .footer__input {
     display: -webkit-box;
@@ -1170,7 +1188,12 @@ body {
     width: auto;
   }
   .footer__bottom h6 {
-    font-size: 10px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #d0d0d0;
   }
   .new__collection__right__title {
     padding: 0 10px;
@@ -1203,10 +1226,13 @@ body {
     font-size: 10px;
   }
   .new__collection__left__corusel__wrapper h6 {
-    font-size: 12px;
+    font-size: 16px;
   }
   .new__collection__left__corusel__wrapper h6 span {
-    font-size: 10px;
+    font-size: 14px;
+  }
+  .collection__2018__right button {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */
