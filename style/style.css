@@ -9,6 +9,7 @@
 
 body {
   font-family: "PT Sans";
+  background-color: #000000;
 }
 
 .container {
@@ -263,7 +264,7 @@ body {
 }
 
 .new__collection__left__corusel__wrapper h6 span {
-  font-family: "PT Sans";
+  font-family: "Playfair Display";
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
@@ -432,7 +433,7 @@ body {
 }
 
 .new__arrivals h6 span {
-  font-family: "PT Sans";
+  font-family: "Playfair Display";
   margin-top: 10px;
   display: inline-block;
   font-style: normal;
@@ -900,9 +901,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .burger-menu {
-    display: block !important;
-  }
   .swiper-slide {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -919,12 +917,6 @@ body {
   }
   .swiper__wrapper {
     width: 100%;
-  }
-  .header__bottom {
-    display: none;
-  }
-  .header__top {
-    display: none;
   }
   .container {
     max-width: 800px;
@@ -945,6 +937,12 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .header__top {
+    padding: 0 20px;
+  }
+  .header__bottom {
+    padding: 0 20px;
+  }
   .collection__2018 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -970,6 +968,15 @@ body {
 }
 
 @media (max-width: 769px) {
+  .burger-menu {
+    display: block !important;
+  }
+  .header__top {
+    display: none;
+  }
+  .header__bottom {
+    display: none;
+  }
   .burger-menu_button {
     left: 7%;
     right: 0;
@@ -1226,7 +1233,8 @@ body {
     width: 160px;
   }
   .footer__top__right button {
-    font-size: 10px;
+    font-size: 14px;
+    padding: 11px 10px;
   }
   .new__collection__left__corusel__wrapper h6 {
     font-size: 16px;

@@ -67,6 +67,8 @@ const swiper1 = new Swiper(".swiper-container1", {
   breakpoints: {
     1200: {
       slidesPerView: 4,
+      allowSlideNext: false,
+      allowSlidePrev: false,
     },
     700: {
       slidesPerView: 3,
@@ -103,15 +105,15 @@ const swiper2 = new Swiper(".swiper-container2", {
       allowSlidePrev: false,
     },
     700: {
+      slidesPerView: 3,
+      allowSlideNext: true,
+      allowSlidePrev: true,
+    },
+    475: {
       slidesPerView: 2,
       allowSlideNext: true,
       allowSlidePrev: true,
       centeredSlides: true,
-    },
-    425: {
-      slidesPerView: 1,
-      allowSlideNext: true,
-      allowSlidePrev: true,
     },
     300: {
       slidesPerView: 1,
