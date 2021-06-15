@@ -1094,6 +1094,9 @@ body {
   }
 }
 @media (max-width: 425px) {
+  .footer__bottom__container {
+    padding: 0 20px;
+  }
   .footer__top__center ul {
     justify-content: center;
   }
